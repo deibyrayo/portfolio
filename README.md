@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="#" target="_blank">
-      <img src="/public/Cover.png" alt="Project Banner">
+      <img src="/public/cover.png" alt="Project Banner">
     </a>
   <br />
 
