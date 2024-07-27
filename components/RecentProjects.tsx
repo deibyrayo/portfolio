@@ -17,13 +17,23 @@ const RecentProjects = () => {
             key={id}
             className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
           >
-            {/* resolve the problem */}
             <PinContainer title={link} href={link}>
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                 <div className="relative w-full h-full overflow-hidden lg:rounden3xl bg-[#13162d]">
-                  <img src="/bg.png" alt="bg-img" />
+                  <Image
+                    src="/bg.png"
+                    alt="bg-img"
+                    layout="fill"
+                    objectFit="cover"
+                  />
                 </div>
-                <img src={img} alt={title} className="z-10 absolute bottom-0" />
+                <Image
+                  src={img}
+                  alt={title}
+                  layout="fill"
+                  objectFit="cover"
+                  className="z-10 absolute bottom-0"
+                />
               </div>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {title}
@@ -43,7 +53,13 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index * 2}px)`,
                       }}
                     >
-                      <img src={icon} alt={icon} className="p-2" />
+                      <Image
+                        src={icon}
+                        alt={icon}
+                        layout="fill"
+                        objectFit="cover"
+                        className="p-2"
+                      />
                     </div>
                   ))}
                 </div>
