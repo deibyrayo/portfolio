@@ -33,14 +33,14 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Deiby, a UX/UI Designer/Engineer based in Colombia.
+            Hi, I&apos;m Deiby Rayo, a UX/UI Designer and Frontend Engineer            
           </p>
 
           <a href="#about">
-            <MagicButton 
-                title=" Show my work"
-                icon={<FaLocationArrow />}
-                position="right"
+            <MagicButton
+              title=" Show my work"
+              icon={<FaLocationArrow />}
+              position="right"
             />
           </a>
         </div>
