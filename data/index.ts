@@ -173,45 +173,60 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "UX/UI Designer",
+    desc: "I specialize in creating intuitive and engaging digital experiences, from concept to implementation. I design interfaces that are not only aesthetically pleasing but also functional and user-centric.",
+    className: "md:col-span-2",
+    thumbnail: "/exp6.svg",
+  },
+  {
+    id: 4,
+    title: "Lead Product Designer",
+    desc: "I design and enhance digital product experiences from concept to implementation, focusing on usability, accessibility, and aesthetics. I collaborate with teams and users to deliver effective solutions.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
+  {
+    id: 3,
+    title: "Frontend Engineer",
+    desc: "I develop web platforms using various technologies based on the project’s requirements, with a focus on enhancing interactivity and user experience.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    id: 4,
+    title: "Mobile App Dev",
+    desc: "I have designed and developed mobile applications for iOS and Android platforms using React Native, SwiftUI, and occasionally Flutter.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+  // {
+  //   id: 5,
+  //   title: "Freelance App Dev Projects",
+  //   desc: "I have led the development of mobile applications for clients, from initial concept through to implementation in app stores.",
+  //   className: "md:col-span-2", // change to md:col-span-2
+  //   thumbnail: "/exp3.svg",
+  // },
 ];
 
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    url: "https://github.com/deibyrayo",
+    img: "/github.svg",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    url: "https://www.behance.net/deibyrayo",
+    img: "/behance.svg",
   },
   {
     id: 3,
-    img: "/link.svg",
+    url: "https://www.linkedin.com/in/deiby-rayo/",
+    img: "/linkedin.svg",
+  },
+  {
+    id: 4,
+    url: "https://www.youtube.com/c/DeibyRayo",
+    img: "/youtube.svg",
   },
 ];
